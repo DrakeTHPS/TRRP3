@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.1\Protos/Quadratic.cs \
+obj\Debug\netcoreapp3.1\Protos/QuadraticGrpc.cs: Protos/quadratic.proto

@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "LTHiYFp7kvg+L15oiFiVF+VmAErujbiXc9BobSFHhfo9k+r3t5UYy8WOIcevLQV9wdwutXnD2gG7D1KxaGmgrg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DrakeTHPS\\source\\repos\\TRRP3Grpc\\TRRP3Grpc\\TRRP3Grpc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DrakeTHPS\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",
+    "C:\\Users\\DrakeTHPS\\.nuget\\packages\\grpc.core.api\\2.33.1\\grpc.core.api.2.33.1.nupkg.sha512",
+    "C:\\Users\\DrakeTHPS\\.nuget\\packages\\grpc.net.client\\2.33.1\\grpc.net.client.2.33.1.nupkg.sha512",
+    "C:\\Users\\DrakeTHPS\\.nuget\\packages\\grpc.net.common\\2.33.1\\grpc.net.common.2.33.1.nupkg.sha512",
+    "C:\\Users\\DrakeTHPS\\.nuget\\packages\\grpc.tools\\2.33.1\\grpc.tools.2.33.1.nupkg.sha512",
+    "C:\\Users\\DrakeTHPS\\.nuget\\packages\\ini-parser\\2.5.2\\ini-parser.2.5.2.nupkg.sha512",
+    "C:\\Users\\DrakeTHPS\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\DrakeTHPS\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.5.1\\system.diagnostics.diagnosticsource.4.5.1.nupkg.sha512",
+    "C:\\Users\\DrakeTHPS\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\DrakeTHPS\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"ini-parser 2.5.2\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "ini-parser",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

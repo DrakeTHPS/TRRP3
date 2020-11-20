@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+service Quadratic {
+    rpc Calculate(QuadraticRequest) returns (QuadraticResponse) {}
+}
+
+message QuadraticRequest {
+    double operandA = 1;
+    double operandB = 2;
+    double operandC = 3;
+}
+
+message QuadraticResponse {
+    double root1 = 1;
+    double root2 = 2;
+    QuadraticStatus quadraticStatus = 3;
+}
+
+enum QuadraticStatus {
+    OK = 0;
+    FAILED = 1;
+}
